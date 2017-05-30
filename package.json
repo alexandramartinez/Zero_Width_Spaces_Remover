@@ -1,0 +1,14 @@
+{
+  "name": "replacer",
+  "version": "1.0.0",
+  "description": "Watches its containing folder and replaces invisible-non-breakable characters in files within",
+  "main": "gulpfile.js",
+  "scripts": {},
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-watch": "^4.3.11"
+  },
+  "author": "",
+  "license": "ISC"
+}
