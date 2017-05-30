@@ -5,11 +5,11 @@ Follow-up on https://github.com/martinsbalodis/web-scraper-chrome-extension/issu
 
 ## Purpose
 
-Takes all the files in the folder `src`, removes all zero-width spaces within them and writes the result in `cleansed`.
+Takes all the csv files in the folder `src`, removes all zero-width spaces within them and writes the result in `cleansed`.
 
 ## How to run
 
-```bash
+```
 git clone git@github.com:quilicicf/Zero_Width_Spaces_Remover.git
 cd Zero_Width_Spaces_Remover
 npm install
