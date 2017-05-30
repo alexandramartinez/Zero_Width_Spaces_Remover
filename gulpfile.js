@@ -7,7 +7,7 @@ const fs = require('fs');
 gulp.task('default', ['watch']);
 
 gulp.task('watch', () => {
-  watch('./src/*.csv', (vinyl) => {
+  watch('./src/*.csv', vinyl => {
 
     const relativePath = path.relative(__dirname, vinyl.path);
     const fileName = path.relative('src', relativePath);
@@ -18,7 +18,7 @@ gulp.task('watch', () => {
 
     } else {
       gulp.src(['./src/*.csv'])
-        // There's an invisible-non-breakable space as first paramete of replace!
+        // There's an invisible-non-breakable space as first parameter of replace!
         .pipe(replace('﻿', ''))
         .pipe(gulp.dest('./cleansed/'));
     }
